@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_market_items",
+  "info": {
+    "displayName": "Market Item",
+    "icon": "pin",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "icon_name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

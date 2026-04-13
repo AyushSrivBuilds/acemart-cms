@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "subheadline": {
+      "type": "text",
+      "required": true
+    },
+    "cta_primary_label": {
+      "type": "string",
+      "default": "Explore Services"
+    },
+    "cta_secondary_label": {
+      "type": "string",
+      "default": "Contact Us"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.service-card",
+        "sections.why-choose-item",
+        "sections.market-item"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_service_cards",
+  "info": {
+    "displayName": "Service Card",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "icon_name": {
+      "type": "enumeration",
+      "enum": [
+        "Search",
+        "FlaskConical",
+        "CircleDollarSign",
+        "ShieldCheck",
+        "Truck",
+        "Warehouse",
+        "FileText",
+        "Scale"
+      ],
+      "required": true
+    }
+  }
+}
