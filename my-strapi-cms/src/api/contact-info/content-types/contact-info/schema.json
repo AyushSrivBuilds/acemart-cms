@@ -12,6 +12,18 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "contact_top_label": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
     "address": {
       "type": "string",
       "required": true
